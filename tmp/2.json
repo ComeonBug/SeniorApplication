@@ -1,0 +1,92 @@
+[
+    {
+        "key": "elementId",
+        "value": "878472a4-0bc2-4e6b-b069-2b0bcc38f160",
+        "name": "elementId"
+    },
+    {
+        "key": "index",
+        "value": "1",
+        "name": "index"
+    },
+    {
+        "key": "package",
+        "value": "cn.com.weilaihui3",
+        "name": "package"
+    },
+    {
+        "key": "class",
+        "value": "android.widget.ImageView",
+        "name": "class"
+    },
+    {
+        "key": "text",
+        "value": "",
+        "name": "text"
+    },
+    {
+        "key": "resource-id",
+        "value": "cn.com.weilaihui3:id/custom_lottie_view",
+        "name": "resource-id"
+    },
+    {
+        "key": "checkable",
+        "value": "false",
+        "name": "checkable"
+    },
+    {
+        "key": "checked",
+        "value": "false",
+        "name": "checked"
+    },
+    {
+        "key": "clickable",
+        "value": "false",
+        "name": "clickable"
+    },
+    {
+        "key": "enabled",
+        "value": "true",
+        "name": "enabled"
+    },
+    {
+        "key": "focusable",
+        "value": "false",
+        "name": "focusable"
+    },
+    {
+        "key": "focused",
+        "value": "false",
+        "name": "focused"
+    },
+    {
+        "key": "long-clickable",
+        "value": "false",
+        "name": "long-clickable"
+    },
+    {
+        "key": "password",
+        "value": "false",
+        "name": "password"
+    },
+    {
+        "key": "scrollable",
+        "value": "false",
+        "name": "scrollable"
+    },
+    {
+        "key": "selected",
+        "value": "false",
+        "name": "selected"
+    },
+    {
+        "key": "bounds",
+        "value": "[288,2126][360,2178]",
+        "name": "bounds"
+    },
+    {
+        "key": "displayed",
+        "value": "true",
+        "name": "displayed"
+    }
+]

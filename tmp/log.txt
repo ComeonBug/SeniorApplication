@@ -1,0 +1,15 @@
+2020-10-03 11:10:38:533 [Appium] Welcome to Appium v1.18.2
+2020-10-03 11:10:38:534 [Appium] Non-default server args:
+2020-10-03 11:10:38:535 [Appium]   logFile: /Users/liyang/temp/appium.log
+2020-10-03 11:10:38:554 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2020-10-03 11:10:48:803 [HTTP] Request idempotency key: 291bdf50-d44e-45e8-b25f-1785a9158de4
+2020-10-03 11:10:48:818 [HTTP] --> POST /wd/hub/session
+2020-10-03 11:10:48:818 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"android","appium:deviceName":"demo","appium:appPackage":"cn.com.weilaihui3","appium:appActivity":".ui.activity.SplashActivity","appium:autoGrantPermissions":"true","appium:ensureWebviewsHavePages":true,"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:noReset":true}]},"desiredCapabilities":{"platformName":"android","deviceName":"demo","appPackage":"cn.com.weilaihui3","appActivity":".ui.activity.SplashActivity","autoGrantPermissions":"true","ensureWebviewsHavePages":true,"unicodeKeyboard":true,"resetKeyboard":true,"noReset":true}}
+2020-10-03 11:10:48:820 [W3C] Calling AppiumDriver.createSession() with args: [{"platformName":"android","deviceName":"demo","appPackage":"cn.com.weilaihui3","appActivity":".ui.activity.SplashActivity","autoGrantPermissions":"true","ensureWebviewsHavePages":true,"unicodeKeyboard":true,"resetKeyboard":true,"noReset":true},null,{"firstMatch":[{"platformName":"android","appium:deviceName":"demo","appium:appPackage":"cn.com.weilaihui3","appium:appActivity":".ui.activity.SplashActivity","appium:autoGrantPermissions":"true","appium:ensureWebviewsHavePages":true,"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:noReset":true}]}]
+2020-10-03 11:10:48:820 [BaseDriver] Event 'newSessionRequested' logged at 1601723448820 (19:10:48 GMT+0800 (GMT+08:00))
+2020-10-03 11:10:48:827 [Appium]
+2020-10-03 11:10:48:827 [Appium] ======================================================================
+2020-10-03 11:10:48:827 [Appium]   DEPRECATION WARNING:
+2020-10-03 11:10:48:828 [Appium]
+2020-10-03 11:10:48:828 [Appium]   The 'automationName' capability was not provided in the desired
+2020-10-03 11:10:48:829 [Appium]   capabilities for this Android session
