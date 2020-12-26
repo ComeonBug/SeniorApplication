@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<data>
+	<country name="shanghai">
+		<rank updated="yes">2</rank>
+		<year>2008</year>
+		<gdppc>141100</gdppc>
+		<neighbor name="suzhou" direction="E"/>
+		<neighbor name="hangzhou" direction="W"/>
+	</country>
+	<country name="beijin">
+		<rank updated="yes">3</rank>
+		<year>2008</year>
+		<gdppc>100000</gdppc>
+		<neighbor name="tianjin" direction="E"/>
+		<neighbor name="shijiazhuang" direction="W"/>
+	</country>
+</data>
