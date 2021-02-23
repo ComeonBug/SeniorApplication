@@ -1,7 +1,7 @@
 # 解析xml文件
 from xml.etree.ElementTree import parse
 
-f = open('./tmp/test.xml', 'r')
+f = open('../tmp/test.xml', 'r')
 et = parse(f)
 print(et)
 root = et.getroot()

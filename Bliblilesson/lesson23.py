@@ -24,9 +24,9 @@
 import os
 import time
 # 是否是一个文件
-print(os.path.isfile('./tmp/ha.txt'))
+print(os.path.isfile('../tmp/ha.txt'))
 # 文件访问时间
-print(time.localtime(os.path.getatime('./tmp/ha.txt')))
+print(time.localtime(os.path.getatime('../tmp/ha.txt')))
 # 文件大小
-print(os.path.getsize('./tmp/ha.txt'))
+print(os.path.getsize('../tmp/ha.txt'))
 

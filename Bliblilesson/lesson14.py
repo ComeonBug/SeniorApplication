@@ -7,7 +7,7 @@
 # print(e)
 import os, stat
 
-l = os.listdir('./tmp')
+l = os.listdir('../tmp')
 for s in l:
     if s.endswith('.py'):
         os.chmod(f'./tmp/{s}', os.stat(f'./tmp/{s}').st_mode | stat.S_IXOTH)

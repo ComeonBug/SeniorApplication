@@ -24,11 +24,11 @@ l = [
 # print(type(sj2))
 # print(sj2)
 # 读取json文件内容，读取后的对象类型为str
-jf = json.load(open('./tmp/2.json','r'))
+jf = json.load(open('../tmp/2.json', 'r'))
 print(type(jf))
 print(jf)
 # 把str写入文件
-with open('./tmp/test2.json','w') as f:
+with open('../tmp/test2.json', 'w') as f:
     json.dump(jf, f)
 
 

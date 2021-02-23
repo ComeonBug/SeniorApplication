@@ -1,8 +1,8 @@
 # csv文件读取
 import csv
 
-rf = open('./tmp/test.csv', 'r')
-wf = open('./tmp/test2.csv','w')
+rf = open('../tmp/test.csv', 'r')
+wf = open('../tmp/test2.csv', 'w')
 reader = csv.reader(rf)
 print(reader)
 for i in reader:

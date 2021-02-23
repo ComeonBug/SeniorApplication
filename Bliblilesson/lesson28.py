@@ -18,4 +18,4 @@ e.text=None
 e.append(e2)
 print(tostring(e))
 et = ElementTree(e)
-et.write(open('./tmp/demo.xml','wb'))
+et.write(open('../tmp/demo.xml', 'wb'))
