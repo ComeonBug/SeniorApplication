@@ -28,7 +28,31 @@ class Human(object):
     live = True
 
     def __init__(self, name):
+        # self:放在首位，约定俗成的，代表【对象自身】
         self.name = name
+
+    # 获取属性的4个方法的用法和区别
+    # __getattr__、__getattribute__、__get__、 @property
+    # def __getattr__(self, item):
+    #     # [对象.属性]要获取的属性不存在时，会调用这个__getattr__方法
+    #     print('Human2:__getattr')
+    #     return '0'
+
+    def __getattribute__(self, item):
+        # 拦截存在的属性：
+        print('Human2:__getattribute__')
+        return '0'
+
+def t4():
+    man = Human('Adn')
+    # print(man.__dict__)
+    # name属性存在，会正常显示name属性值
+    print('name属性存在')
+    print(man.name)
+
+    # age属性不存在，【man.age】这句会调用Human类的__getattr__方法，【man.age】的结果就 == __getattr__方法的返回值
+    print('age属性不存在')
+    print(man.age)
 
 
 def t2():
@@ -62,6 +86,9 @@ class Human2(object):
     # 注意：两边都加了__之后，就不是属性了，变成了魔术方法，模式方法不会自动改名
     __fly = False
 
+    # 如果属性名和python的保留子一样的话，可以在属性后加一个下划线：
+    object_ = 'man'
+
 
 def t3():
     snake = Human2()
@@ -72,4 +99,4 @@ def t3():
 
 
 if __name__ == '__main__':
-    t3()
+    t4()
